@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream Cafe</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div>
+        <a href="#" class="navbar-logo">Dream <span>Cafe</span></a>
+      </div>
+
+      <div class="navbar-bar">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <section id="home" class="home-section">
+      <main class="home-content">
+        <h1>Mari nikmati secangkir <span>kopi</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+          nemoexpedita dolorem pariatur tempora!
+        </p>
+      </main>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section -->
+    <section id="about" class="about-section">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-image">
+          <img src="img/tentang-kami.jpg" alt="Tentang kami" />
+        </div>
+
+        <div class="about-content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni
+            cupiditate nostrum mollitia ducimus hic esse reiciendis itaque
+            quidem quam! Maxime rem nobis mollitia sed libero? Eligendi ad
+            mollitia ducimus Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Veritatis sed repellat eum in, impedit similique, iste labore
+            nostrum ipsam modi nesciunt? Atque voluptatibus vitae est ducimus
+            quas quia dolores minus dolore distinctio. Sint soluta architecto
+            adipisci corporis repellat totam obcaecati!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section end -->
+
+    <!-- menu section -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> kami</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos in nobis
+        labore nam vel similique!
+      </p>
+      <div class="row">
+        <div class="menu-row">
+          <img src="img/menu/1.jpg" alt="es teh" />
+          <p class="drink">es teh</p>
+          <p class="price">IDR 3k</p>
+        </div>
+        <div class="menu-row">
+          <img src="img/menu/1.jpg" alt="kopi hitam" />
+          <p class="drink">kopi hitam</p>
+          <p class="price">IDR 4k</p>
+        </div>
+        <div class="menu-row">
+          <img src="img/menu/1.jpg" alt="gooday" />
+          <p class="drink">gooday</p>
+          <p class="price">IDR 5k</p>
+        </div>
+        <div class="menu-row">
+          <img src="img/menu/1.jpg" alt="kopi abc" />
+          <p class="drink">kopi abc</p>
+          <p class="price">IDR 5k</p>
+        </div>
+        <div class="menu-row">
+          <img src="img/menu/1.jpg" alt="top kopi" />
+          <p class="drink">top kopi</p>
+          <p class="price">IDR 5k</p>
+        </div>
+        <div class="menu-row">
+          <img src="img/menu/1.jpg" alt="luwak white kopi" />
+          <p class="drink">luwak white kopi</p>
+          <p class="price">IDR 5k</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section end -->
+
+    <!-- kontak section -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi
+        laboriosam dicta facere, ipsa temporibus!
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311709235512!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1672408575523!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No. Hp" />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">tentang</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+      </div>
+
+      <div class="credits">
+        <p>created by <a href="#"> imam fachrie </a>| © 2023.</p>
+      </div>
+    </footer>
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

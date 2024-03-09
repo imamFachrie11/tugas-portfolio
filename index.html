@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -9,8 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Alice&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>portfolio</title>
     <link rel="stylesheet" href="src/output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- header start -->
@@ -20,7 +22,9 @@
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="#hero" class="font-bold text-lg text-primary block py-6"
+            <a
+              href="#hero"
+              class="font-bold text-lg text-primary block py-6 lg:text-3xl"
               >Imam Fachrie</a
             >
           </div>
@@ -71,14 +75,7 @@
                   <a
                     href="#clients"
                     class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >Clients</a
-                  >
-                </li>
-                <li class="group">
-                  <a
-                    href="#blog"
-                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >Blog</a
+                    >Learning source</a
                   >
                 </li>
                 <li class="group">
@@ -155,38 +152,94 @@
     <section id="about" class="pt-36 pb-24">
       <div class="container">
         <div class="flex flex-wrap font-alice">
-          <div class="w-full px-4 mb-10 lg:w-1/2">
+          <div data-aos="fade-up-right" class="w-full px-4 mb-10 lg:w-1/2">
             <h2 class="font-semibold text-primary lg:text-2xl">About me</h2>
             <h3 class="text-xl text-dark font-bold max-w-md mb-3 lg:text-4xl">
               how i became fullstack developer?
             </h3>
             <p class="text-xs text-slate-600 max-w-xl lg:text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
-              eos. Cum voluptates porro distinctio vel nam deserunt
-              exercitationem, molestiae incidunt placeat quasi, debitis nihil
-              enim odio sunt neque eligendi ipsam magnam praesentium! Natus
-              omnis excepturi eaque, fugiat optio adipisci rerum, est molestiae
-              possimus sed id in, sapiente quisquam animi reiciendis!
+              My journey to becoming a fullstack web developer was shaped by a
+              rich blend of self-learning and structured education. I
+              kickstarted my coding adventure by delving into tutorials from Web
+              Programming UNPAS on YouTube, absorbing the fundamentals of HTML,
+              CSS, and JavaScript.
+              <br /><br />
+              Seeking a more structured approach, I enrolled in Harisenin.com's
+              intensive bootcamp. Through hands-on projects and immersive
+              learning experiences, I gained proficiency in both front-end and
+              back-end technologies. The bootcamp provided a structured
+              curriculum, mentorship, and a supportive community, accelerating
+              my growth.
+              <br /><br />
+              Additional learning resources, including FreeCodeCamp and
+              W3Schools, complemented my journey. Regularly engaging with
+              diverse coding challenges and projects deepened my understanding
+              and honed my problem-solving skills. Each learning avenue
+              contributed to my evolution into a versatile and confident
+              fullstack web developer.
             </p>
           </div>
 
-          <div class="w-full px-4 lg:w-1/2">
+          <div data-aos="fade-up-left" class="w-full px-4 lg:w-1/2">
             <h3
               class="text-dark font-semi text-xl mb-3 font-bold lg:text-4xl lg:pt-6"
             >
               why you should hire me?
             </h3>
             <p class="text-xs text-slate-600 max-w-xl mb-4 lg:text-xl">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
-              placeat! Ducimus praesentium eveniet id, earum quidem nulla
-              reiciendis fugit nesciunt! Dolor voluptatibus libero, suscipit
-              quidem veniam quaerat ipsa repellat dolorem nemo molestiae
-              mollitia sunt consequatur maiores. Optio possimus id ad.
-              Voluptates iusto repudiandae tempore ipsam accusantium corrupti
-              delectus sit maxime, dignissimos obcaecati! Necessitatibus earum
-              aut tempore, ducimus voluptatum amet rerum.
+              As a fullstack web developer with a solid foundation and diverse
+              skill set, hiring me means bringing on board a passionate and
+              dedicated professional. My journey, combining self-learning and
+              structured education, has equipped me with a unique blend of
+              creativity and technical proficiency.
             </p>
 
+            <ol>
+              <li>
+                <span class="font-semibold text-lg">Versatility: </span>
+                <p class="text-xs text-slate-600 max-w-xl lg:text-base">
+                  My proficiency spans the entire web development spectrum —
+                  from crafting visually appealing front-end interfaces to
+                  seamlessly managing server-side logic and databases.
+                </p>
+              </li>
+              <li>
+                <span class="font-semibold text-lg mt-3 block"
+                  >Problem-solving:
+                </span>
+                <p class="text-xs text-slate-600 max-w-xl lg:text-base">
+                  Having tackled real-world challenges in both individual and
+                  collaborative projects, I possess robust problem-solving
+                  skills and the ability to adapt to dynamic environments.
+                </p>
+              </li>
+              <li>
+                <span class="font-semibold text-lg mt-3 block"
+                  >Passion for Excellence
+                </span>
+                <p class="text-xs text-slate-600 max-w-xl lg:text-base">
+                  With a relentless pursuit of excellence, I am driven to
+                  deliver high-quality, efficient, and scalable solutions for
+                  your web development needs.
+                </p>
+              </li>
+            </ol>
+
+            <h3
+              class="text-xl text-dark font-bold max-w-md mb-3 lg:text-4xl mt-4"
+            >
+              lets connect!
+            </h3>
+            <p class="text-xs text-slate-600 max-w-xl lg:text-xl">
+              Have a project in mind or just want to chat about web development?
+              Feel free to reach out to me through my social media channels. I'm
+              always eager to connect, collaborate, and explore exciting
+              opportunities together. Whether you have questions, ideas, or
+              simply want to discuss the latest trends in tech, I'm just a
+              message away. Let's embark on this journey together and turn your
+              visions into digital realities. Looking forward to hearing from
+              you soon!
+            </p>
             <div class="flex items-center">
               <!-- linkedin -->
               <a
@@ -276,129 +329,184 @@
 
     <!-- portfolio section start -->
     <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-bold text-xl text-primary">Portfolio</h4>
             <h2 class="font-bold text-2xl text-dark mb-4">Newest Project</h2>
             <p class="font-medium text-md text-slate-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, veniam nulla ducimus dolor dolorem autem dolores
-              nobis nesciunt incidunt natus, minus architecto fuga quo rem enim
-              ullam maxime est labore!
+              Explore a diverse collection of my recent projects that showcase
+              the fusion of creativity and technical expertise. From captivating
+              image galleries to impactful landing pages, each project reflects
+              my commitment to delivering visually stunning and functional
+              solutions. As you browse through, envision the possibilities and
+              discover how my skills can elevate your next endeavor. Let's turn
+              ideas into reality – explore my portfolio and let the projects
+              speak for themselves.
             </p>
           </div>
         </div>
 
         <div class="w-full px-4 flex flex-wrap justify-center cursor-pointer">
           <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="portfolio/4.png" alt="Image gallery" width="w-full" />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                Image gallery
-              </h3>
-              <p class="font-medium text-base text-slate-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, pariatur? Accusamus, tempore asperiores rerum
-                adipisci perspiciatis et. Rem, officiis veniam.
-              </p>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="portfolio/5.png" alt="Landing page" width="w-full" />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                Landing page
-              </h3>
-              <p class="font-medium text-base text-slate-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, pariatur? Accusamus, tempore asperiores rerum
-                adipisci perspiciatis et. Rem, officiis veniam.
-              </p>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="portfolio/2.png" alt="survey form" width="w-full" />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                survey form
-              </h3>
-              <p class="font-medium text-base text-slate-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, pariatur? Accusamus, tempore asperiores rerum
-                adipisci perspiciatis et. Rem, officiis veniam.
-              </p>
-            </div>
-          </div>
-          <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="portfolio/3.png" alt="web cafe" width="w-full" />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                cafe website
-              </h3>
-              <p class="font-medium text-base text-slate-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, pariatur? Accusamus, tempore asperiores rerum
-                adipisci perspiciatis et. Rem, officiis veniam.
-              </p>
-            </div>
+            <a href="projects/image-gallery/index.html" target="_blank">
+              <div
+                class="rounded-md shadow-md overflow-hidden"
+                data-aos="fade-right"
+              >
+                <img src="portfolio/4.png" alt="Image gallery" width="w-full" />
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                  Image gallery
+                </h3>
+                <p class="font-medium text-base text-slate-500">
+                  Crafted an engaging image gallery project using Tailwind CSS
+                  for seamless styling and DOM manipulation. A blend of
+                  aesthetics and functionality, this project showcases dynamic
+                  visual appeal with a minimalistic approach.
+                </p>
+              </div>
+            </a>
           </div>
 
           <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img src="portfolio/1.png" alt="City skylines" width="w-full" />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                City skylines
-              </h3>
-              <p class="font-medium text-base text-slate-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, pariatur? Accusamus, tempore asperiores rerum
-                adipisci perspiciatis et. Rem, officiis veniam.
-              </p>
-            </div>
+            <a href="projects/landingpage/index.html" target="_blank">
+              <div
+                class="rounded-md shadow-md overflow-hidden"
+                data-aos="fade-left"
+              >
+                <img src="portfolio/5.png" alt="Landing page" width="w-full" />
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                  Landing page
+                </h3>
+                <p class="font-medium text-base text-slate-500">
+                  Created an impressive landing page project using HTML and CSS.
+                  Designed with a focus on aesthetics and user-friendly
+                  navigation, this project reflects a seamless blend of
+                  creativity and practicality in web development.
+                </p>
+              </div>
+            </a>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
-            <div class="rounded-md shadow-md overflow-hidden">
-              <img
-                src="portfolio/1b.png"
-                alt="City skylines dark mode"
-                width="w-full"
-              />
-              <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
-                City skylines dark mode
-              </h3>
-              <p class="font-medium text-base text-slate-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, pariatur? Accusamus, tempore asperiores rerum
-                adipisci perspiciatis et. Rem, officiis veniam.
-              </p>
-            </div>
+            <a
+              href="projects/latihan 8 - membuat survey form/index.html"
+              target="_blank"
+            >
+              <div
+                class="rounded-md shadow-md overflow-hidden"
+                data-aos="fade-right"
+              >
+                <img src="portfolio/2.png" alt="survey form" width="w-full" />
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                  survey form
+                </h3>
+                <p class="font-medium text-base text-slate-500">
+                  Developed a user-friendly survey form project utilizing HTML
+                  and CSS. This project emphasizes simplicity and accessibility,
+                  ensuring a seamless and engaging experience for users to
+                  provide valuable feedback.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <a
+              href="projects/latihan 3 - simple cafe web, using html,css,js/index.html"
+              target="_blank"
+            >
+              <div
+                class="rounded-md shadow-md overflow-hidden"
+                data-aos="fade-left"
+              >
+                <img src="portfolio/3.png" alt="web cafe" width="w-full" />
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                  cafe website
+                </h3>
+                <p class="font-medium text-base text-slate-500">
+                  Crafted 'Dream Cafe,' a charming website blending HTML, CSS,
+                  and JavaScript. This project delivers a delightful online cafe
+                  experience, seamlessly combining aesthetics and interactive
+                  elements for a captivating and user-friendly journey.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <a
+              href="projects/latihan 11 - city skylines/index.html"
+              target="_blank"
+            >
+              <div
+                class="rounded-md shadow-md overflow-hidden"
+                data-aos="fade-right"
+              >
+                <img src="portfolio/1.png" alt="City skylines" width="w-full" />
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                  City skylines
+                </h3>
+                <p class="font-medium text-base text-slate-500">
+                  Illustrated city skylines project using HTML and CSS.
+                  Capturing the essence of urban landscapes, this project offers
+                  a visual tour through stylized depictions of iconic
+                  cityscapes.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <a href="projects/cityskylines-darkMode/index.html">
+              <div
+                class="rounded-md shadow-md overflow-hidden"
+                data-aos="fade-left"
+              >
+                <img
+                  src="portfolio/1b.png"
+                  alt="City skylines dark mode"
+                  width="w-full"
+                />
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                  City skylines dark mode
+                </h3>
+                <p class="font-medium text-base text-slate-500">
+                  Elevated the City Skylines project with a stylish Dark Mode.
+                  Experience a nocturnal ambiance, enhancing the visual appeal
+                  while maintaining the charm of city illustrations.
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
     <!-- portfolio section end -->
 
-    <!-- client section start -->
+    <!-- learning section start -->
     <section id="clients" class="pt-36 pb-32 bg-slate-700">
       <div class="container">
-        <div class="w-full px-4">
+        <div class="w-full px-4" data-aos="fade-up" data-aos-duration="1000">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4
               class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary"
             >
-              Clients
+              learning
             </h4>
             <h2
               class="font-bold text-2xl text-white mb-4 sm:text-3xl md:text-4xl lg:text-5xl max-w-sm mx-auto"
             >
-              Who have worked with us
+              learning source
             </h2>
             <p
               class="font-medium text-md text-slate-500 sm:text-lg md:text-xl lg:text-2xl"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Aspernatur unde doloremque cupiditate!
+              I've actively pursued tutorials from Web Programming UNPAS on
+              YouTube, completed a comprehensive bootcamp on Harisenin.com, and
+              extensively explored materials on FreeCodeCamp and W3Schools.
+              These learning experiences have collectively forged a strong
+              foundation in my journey to comprehend and master the intricacies
+              of the programming world. Each learning source has provided
+              invaluable insights, enabling me to overcome challenges and
+              construct a robust framework for success in the coding domain.
             </p>
           </div>
         </div>
@@ -406,188 +514,73 @@
         <div class="w-full px-4">
           <div class="flex flex-wrap items-center justify-center">
             <a
-              href="#"
+              href="https://www.youtube.com/c/WebProgrammingUNPAS"
+              target="_blank"
               class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-8"
+              data-aos="flip-left"
+              data-aos-duration="1000"
             >
-              <img src="clients/1.svg.png" alt="google" />
+              <img src="clients/paksandi.png" alt="pak sandhika" />
             </a>
             <a
-              href="#"
-              class="max-w-[120px] rounded-xl mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 hover:bg-slate-100"
+              href="https://www.harisenin.com/"
+              target="_blank"
+              class="max-w-[200px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6"
+              data-aos="zoom-out"
+              data-aos-duration="1000"
             >
-              <img src="clients/2.svg.png" alt="sinarmas" />
+              <img src="clients/download.svg" alt="hari senin" />
             </a>
             <a
-              href="#"
+              href="https://www.freecodecamp.org/"
+              target="_blank"
+              class="max-w-[120px] mx-4 grayscale opacity-60 transition hover:grayscale-0 py-4 hover:opacity-100 duration-500 lg:mx-6"
+              data-aos="flip-down"
+              data-aos-duration="1000"
+            >
+              <img src="clients/fcc_secondary_small.svg" alt="FreeCodeCamp" />
+            </a>
+            <a
+              href="https://www.w3schools.com/"
+              target="_blank"
               class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6"
+              data-aos="flip-right"
+              data-aos-duration="1000"
             >
-              <img src="clients/3.svg.png" alt="tesla" />
+              <img src="clients/W3Schools_logo.svg.png" alt="w3schools" />
             </a>
             <a
-              href="#"
+              href="https://www.youtube.com/"
+              target="_blank"
               class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
             >
-              <img src="clients/5.svg.png" alt="telkomsel" />
-            </a>
-            <a
-              href="#"
-              class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6"
-            >
-              <img src="clients/6.svg.png" alt="microsoft" />
+              <img src="clients/Youtube_logo.png" alt="youtube" />
             </a>
           </div>
         </div>
       </div>
     </section>
-    <!-- client section end -->
-
-    <!-- blog section start -->
-    <section id="blog" class="pt-36 pb-32 bg-slate-100">
-      <div class="container">
-        <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-bold text-xl text-primary">Blogs</h4>
-            <h2 class="font-bold text-2xl text-dark mb-4">Newest writing</h2>
-            <p class="font-medium text-md text-slate-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              rem blanditiis in delectus?
-            </p>
-          </div>
-        </div>
-
-        <div class="flex flex-wrap">
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="bg-white rounded-xl shadow-xl overflow-hidden mb-10">
-              <img src="blog/1.jpg" alt="blogpost" class="w-full" />
-              <div class="py-8 px-6">
-                <h3>
-                  <a
-                    href="#"
-                    class="font-semibold mb-2 block text-xl text-dark hover:text-primary"
-                    >Menjadi web developer di 2024</a
-                  >
-                </h3>
-                <p class="text-dark text-[0.8rem] mb-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis odit libero cupiditate eos.
-                </p>
-                <a
-                  href="#"
-                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >Baca selengkapnya</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="bg-white rounded-xl shadow-xl overflow-hidden mb-10">
-              <img src="blog/3.jpg" alt="blogpost" class="w-full" />
-              <div class="py-8 px-6">
-                <h3>
-                  <a
-                    href="#"
-                    class="font-semibold mb-2 block text-xl text-dark hover:text-primary"
-                    >Apa itu sdlc?</a
-                  >
-                </h3>
-                <p class="text-dark text-[0.8rem] mb-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Aliquam facere veniam omnis.
-                </p>
-                <a
-                  href="#"
-                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >Baca selengkapnya</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="bg-white rounded-xl shadow-xl overflow-hidden mb-10">
-              <img src="blog/2.jpg" alt="blogpost" class="w-full" />
-              <div class="py-8 px-6">
-                <h3>
-                  <a
-                    href="#"
-                    class="font-semibold mb-2 block text-xl text-dark hover:text-primary"
-                    >Git dan github</a
-                  >
-                </h3>
-                <p class="text-dark text-[0.8rem] mb-4">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Cupiditate, at iste.
-                </p>
-                <a
-                  href="#"
-                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >Baca selengkapnya</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="bg-white rounded-xl shadow-xl overflow-hidden mb-10">
-              <img src="blog/4.jpg" alt="blogpost" class="w-full" />
-              <div class="py-8 px-6">
-                <h3>
-                  <a
-                    href="#"
-                    class="font-semibold mb-2 block text-xl text-dark hover:text-primary"
-                    >Javascript: fundamental, tipe data, array, function dan
-                    object</a
-                  >
-                </h3>
-                <p class="text-dark text-[0.8rem] mb-4">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Itaque quidem dolores nostrum at.
-                </p>
-                <a
-                  href="#"
-                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >Baca selengkapnya</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="bg-white rounded-xl shadow-xl overflow-hidden mb-10">
-              <img src="blog/5.jpg" alt="blogpost" class="w-full" />
-              <div class="py-8 px-6">
-                <h3>
-                  <a
-                    href="#"
-                    class="font-semibold mb-2 block text-xl text-dark hover:text-primary"
-                    >Manfaat keyboard mechanical untuk programmer</a
-                  >
-                </h3>
-                <p class="text-dark text-[0.8rem] mb-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
-                  iusto dicta iure!
-                </p>
-                <a
-                  href="#"
-                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >Baca selengkapnya</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- blog section end -->
+    <!-- learning section end -->
 
     <!-- contact section start -->
-    <section id="contact" class="pt-36 pb-32">
+    <section
+      id="contact"
+      class="pt-36 pb-32"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div class="container">
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-bold text-xl text-primary">Contacts</h4>
             <h2 class="font-bold text-2xl text-dark mb-4">Contact Us</h2>
             <p class="font-medium text-md text-slate-500 md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              repellendus quis quisquam?
+              Feel free to get in touch! Whether you have a project in mind, a
+              question, or just want to say hello, I'm here. Drop me a message
+              and let's start a conversation. Your ideas and inquiries are
+              always welcome.
             </p>
           </div>
         </div>
@@ -629,7 +622,6 @@
                 id="Text"
                 class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
               ></textarea>
-              >
             </div>
             <div class="w-full px-4">
               <button
@@ -718,14 +710,7 @@
                 <a
                   href="#clients"
                   class="inline-block text-base hover:text-primary mb-1"
-                  >clients</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#blog"
-                  class="inline-block text-base hover:text-primary mb-1"
-                  >blog</a
+                  >Learning source</a
                 >
               </li>
               <li>
@@ -834,5 +819,8 @@
 
     <!-- footer end -->
     <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
